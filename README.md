@@ -14,7 +14,7 @@ system with a Vulkan renderer. No emulator is involved, and nothing of the game 
 
 The base game (v1.0, no update): new game in German from the language screen through Kukui's call, the name entry, the opening cutscenes and the title logo to the bedroom; walking there, the X menu, saving with Y, and after a restart Continue from that save. Not tested: anything after the bedroom (no battle), long sessions. Seen on Linux with software Vulkan (llvmpipe in WSL2) only: the title screen's animation stays white, then black, before the Continue menu's result (the bedroom) shows correctly; on Windows with a real GPU the title is right. On Windows the same route was also played with the v1.2 update (recompiled with `--mods`), which these scripts do not set up.
 
-Tested on Windows 11 (Intel Core i7-13700KF, NVIDIA GeForce RTX 3070 Ti) with the player in a window and
+Tested mainly on Windows 11 (Intel Core i7-13700KF, NVIDIA GeForce RTX 3070 Ti) with the player in a window and
 fullscreen, picture by picture from scripted input (`test/`), and the Linux build the same way in WSL2
 (Ubuntu 24.04, software Vulkan). The game's sound was recorded and checked to be music, not listened to.
 A gamepad was not tested here; input was scripted.
